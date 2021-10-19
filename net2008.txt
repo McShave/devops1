@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This is a change to the file.
+=======
+making changes helllllooooooo
+>>>>>>> 63c84a1e297c522c3926fc24fca291bc1d27735a
