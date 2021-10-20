@@ -21,9 +21,9 @@ print("branches = ", list(repo.get_branches()))
 
 # 2. Get all pull requests you have created
 
-print("pulls = ", repo.get_pulls())
+print("pulls = ", list(repo.get_pulls()))
 
 # 3. Get a list of commits you have created in your `main` branch.
 
 commits = repo.get_commits(sha='main')
-print("commits from branch = ", commits)
+print("commits from branch = ", list(commits))
